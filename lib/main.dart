@@ -79,6 +79,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
         providers:
         [
+          //TazkartiApp
           BlocProvider(
             create: (BuildContext context) => TazkartiAdminCubit()
               ..readTeamsFile()
